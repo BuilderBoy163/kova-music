@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "kova_music_hub.html", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/kova_music_hub.html" }
+  ]
+}
